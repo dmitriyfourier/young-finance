@@ -16,43 +16,43 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://furye.ru"
+			url: "http://young-finance.ru"
 
-			canonicalUrl: "http://furye.ru"
+			canonicalUrl: "http://young-finance.ru"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
-				'www.furye.ru'
+				'www.young-finance.ru'
 			]
 
 			# The default title of our website
-			title: "Дмитрий Фурье"
+			title: "Янг • Файненс"
 
 			# RSS title of our website
-			rssTitle: "Дмитрий Фурье"
+			rssTitle: "Янг • Файненс"
 
 			# Author name used in copyrights and meta data
-			author: "Дмитрий Фурье"
-			twittername: "@dmitriyfourier"
+			author: "Янг • Файненс"
+			twittername: "@youngfinance"
 
 			# Change to your disqus name or comment it out to disable comments
-			disqus_shortname: "dmitriyfourier"
+			disqus_shortname: "youngfinance"
 
 			# The website description (for SEO)
 			description: """
-				Финансовый директор для малого бизнеса. Управленческий учет. Финансовые модели и консалтинг.
+				Заметки про финансвоую грамотность, для людей от 16 до 27+.
 				"""
 
 			# The website keywords (for SEO) separated by commas
 			keywords: """
-				Дмитрий Фурье, финансовый директор, финансовая отчетность
+				Янг • Файненс, личные финансы, сбережения, финансоваая грамотность, 
 				"""
 
 			email: "dmitriyfurye@gmail.com"
 
-			googleAnalyticsId: " "
+			googleAnalyticsId: "UA-88794643-3"
 
-			googleAnalyticsDomain: "furye.ru"
+			googleAnalyticsDomain: "young-finance.ru"
 
 			# The website's styles
 			styles: [
@@ -197,7 +197,7 @@ docpadConfig = {
 		ghpages:
 			templateData:
 				site:
-					url: 'http://furye.ru'
+					url: 'http://young-finance.ru'
 
 		development:
 			templateData:
