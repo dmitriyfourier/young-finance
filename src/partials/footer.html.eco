@@ -1,0 +1,10 @@
+<footer>
+	<p>
+		© <%- @site.author %>
+		<% if (@document.created_at) : %>
+			<%= @moment(@document.created_at).format('YYYY') %>.
+		<% else : %>
+			2018&ndash;<%= @moment(@now).format('YYYY') %>.
+		<% end %>
+	</p>
+</footer>
