@@ -10,6 +10,8 @@
     <meta name="description" content="<%= @getPreparedDescription() %>" />
     <meta name="keywords" content="<%= @getPreparedKeywords() %>" />
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="Author" content="Дмитрий Фурье">
+    <meta name="Copyright" content="Янг Файненс">
 
     <!-- DocPad Meta -->
     <%- @getBlock('meta').toHTML() %>

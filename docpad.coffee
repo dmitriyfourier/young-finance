@@ -45,7 +45,7 @@ docpadConfig = {
 
 			# The website keywords (for SEO) separated by commas
 			keywords: """
-				Янг • Файненс, личные финансы, сбережения, финансоваая грамотность, 
+				Янг • Файненс, личные финансы, сбережения, финансоваая грамотность, накопления, инвестиции, бюджет
 				"""
 
 			email: "dmitriyfurye@gmail.com"
