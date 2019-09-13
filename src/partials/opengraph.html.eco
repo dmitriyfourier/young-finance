@@ -1,1 +1,4 @@
-
+<meta property="og:title" content="Example title" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.site.com/example" />
+<meta property="og:image" content="http://site.com/images/example.jpg" />

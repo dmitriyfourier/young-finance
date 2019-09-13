@@ -1,0 +1,26 @@
+
+
+
+<header class="row row-middle-md space-out-bottom-kilo-xs space-out-bottom-mega-lg">
+        <div class="col-xs-12 col-md-shrink">
+            <span class="logo">
+                <span class="logo-icon">
+                        <a href="http://young-finance.ru"><img src="/i/logo.png" alt="Янг Файненс" width="200" data-atf="1"></a>
+                </span>
+            </span>
+        </div>
+        <div class="col-xs-12 col-md">
+            <nav class="row space-in-left-kilo-xs space-in-left-micro-md">
+                <a class="link-novisited col-xs-12 col-sm-shrink space-in-bottom-nano-xs space-in-v-nano-sm" href="/"><strong>Заработать</strong></a>
+                <a class="link-novisited col-xs-12 col-sm-shrink space-in-bottom-nano-xs space-in-v-nano-sm" href="/"><strong>Обезопасить</strong></a>
+                <a class="link-novisited col-xs-12 col-sm-shrink space-in-bottom-nano-xs space-in-v-nano-sm" href="/"><strong>Накопить</strong></a>
+                <a class="link-novisited col-xs-12 col-sm-shrink space-in-bottom-nano-xs space-in-v-nano-sm" href="/"><strong>Сохранить</strong></a>
+                <a class="link-novisited col-xs-12 col-sm-shrink space-in-bottom-nano-xs space-in-v-nano-sm" href="/"><strong>Инструменты</strong></a>
+                <a class="link-novisited col-xs-12 col-sm-shrink space-in-bottom-nano-xs space-in-v-nano-sm" href="/"><strong>Знания</strong></a>
+            </nav>
+        </div>
+    </header>
+
+
+    
+                  

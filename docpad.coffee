@@ -82,6 +82,10 @@ docpadConfig = {
 			# if we have a document description, then we should use that, otherwise use the site's description
 			@document.description or @site.description
 
+		getPreparedCreator: ->
+			# if we have a document description, then we should use that, otherwise use the site's description
+			@document.creator or @site.twittername
+
 		# Get the prepared site/document keywords
 		getPreparedKeywords: ->
 			# Merge the document keywords with the site keywords
