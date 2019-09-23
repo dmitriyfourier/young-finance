@@ -1,4 +1,4 @@
-# [furye.ru](http://furye.ru/) blog built with [DocPad](https://github.com/bevry/docpad)
+# [young-finance.ru][http://young-finance.ru/) blog built with [DocPad](https://github.com/bevry/docpad)
 
 
 ## Getting Started
@@ -10,7 +10,7 @@
 4. Clone the project and run the server
 
 	``` bash
-	git clone https://github.com/dmitriyfourier/furye-2.0.git
+	git clone https://github.com/dmitriyfourier/young-finance.git
 	cd furye-2.0
 	npm install
 	bower install

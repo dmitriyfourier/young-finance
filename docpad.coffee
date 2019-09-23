@@ -34,7 +34,7 @@ docpadConfig = {
 			# Author name used in copyrights and meta data
 			author: "Янг • Файненс"
 			twittername: "@youngfinance"
-
+			creator: "Дмитрий Фурье"
 			# Change to your disqus name or comment it out to disable comments
 			disqus_shortname: "youngfinance"
 

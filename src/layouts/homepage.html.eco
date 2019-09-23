@@ -30,12 +30,15 @@
     <%- @partial('opengraph') %>
     <%- @partial('twittercard') %>
 </head>
-<body>
+<body class="global-maw col-flex-xs space-in-mili-xs space-in-base-sm space-in-wide-kilo-lg">
 <%- @partial('menu') %>
 <%- @content %>
-<!-- <%- @partial('about') %>
-<%- @partial('footer') %>
+<!-- <%- @partial('about') %> -->
 <%- @partial('docpadscripts') %>
-<%- @partial('likely') %> -->
+<%- @partial('likelybig') %>
+<%- @partial('social') %>
+<%- @partial('metrica') %>
+<%- @partial('footer') %>
+
 </body>
 </html>
