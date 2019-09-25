@@ -4,6 +4,10 @@ title: 'Янг • Файненс'
 description: 'Заметки про финансвоую грамотность, для людей от 16 до 27+'
 keywords: 'Янг • Файненс, личные финансы, сбережения, финансоваая грамотность, накопления, инвестиции, бюджет'
 creator: '@dmitriyfourier'
+og_title: Янг • Файненс
+og_desc: Заметки про финансвоую грамотность, для людей от 16 до 27+
+og_img: logo-og.png
+og_type: website
 ---
 <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 space-in-left-micro-xs space-in-left-micro-md space-in-bottom-base-md">

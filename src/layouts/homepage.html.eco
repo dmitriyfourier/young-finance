@@ -4,7 +4,6 @@
     <!-- Standard Meta -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-
     <!-- Site Properities -->
     <title><%= @getPreparedTitle() %></title>
     <meta name="description" content="<%= @getPreparedDescription() %>" />
@@ -12,23 +11,16 @@
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="Author" content="Дмитрий Фурье">
     <meta name="Copyright" content="Янг Файненс">
-
     <!-- DocPad Meta -->
     <%- @getBlock('meta').toHTML() %>
-
     <!-- Styles -->
     <link rel="stylesheet" href="/ui/homepage.css">
     <%- @getBlock('styles').add([].concat(@site.styles or []).concat(@document.styles or [])).toHTML() %>
-
     <!-- Favicon -->
-    <%- @partial('favicon') %>
-
-    <!-- Feeds -->
-   <!--<%- @partial('feeds') %> -->   
-    <!-- Social -->
+    <%- @partial('favicon') %> 
     <link rel="canonical" href="<%= @site.canonicalUrl %><%= @document.url %>">
+        <!-- Social -->
     <%- @partial('opengraph') %>
-    <%- @partial('twittercard') %>
 </head>
 <body class="global-maw col-flex-xs space-in-mili-xs space-in-base-sm space-in-wide-kilo-lg">
 <%- @partial('menu') %>

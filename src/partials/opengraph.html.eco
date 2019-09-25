@@ -1,16 +1,16 @@
-<meta property="og:title" content="<%= @document.og-title %>" />
-<meta property="og:description" content="<%= @document.og-desc %>" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="<%- @site.url %>" />
-<meta property="og:image" content="<%- @site.url %>/i/og<%= @document.og-img %>">
+
+<meta property="og:title" content="<%= @document.og_title %>" />
+<meta property="og:description" content="<%= @document.og_desc %>" />
+<meta property="og:type" content="<%= @document.og_type %>" />
+<meta property="og:url" content="<%- @site.url %>"/>
+<meta property="og:image" content="<%- @site.url %>/i/og/<%= @document.og_img %>"> 
 <meta property="og:locale" content="ru_RU" />
 <meta property="og:site_name" content="<%- @site.rssTitle %>" />
-
 <!--Twitter cards-->
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="<%- @site.twittername %>" /> 
 <meta name="twitter:creator" content="<%- @document.creator %>" />  
 <!--Microdata-->
-<meta itemprop="name" content="<%= @document.og-titile %>" />
-<meta itemprop="description" content="<%= @document.og-desc %>" /> 
-<meta itemprop="image" content="<%- @site.url %>/i/og<%= @document.og-img %>" />
+<meta itemprop="name" content="<%= @document.og_title %>" />
+<meta itemprop="description" content="<%= @document.og_desc %>" /> 
+<meta itemprop="image" content="<%- @site.url %>/i/og/<%= @document.og_img %>" />
