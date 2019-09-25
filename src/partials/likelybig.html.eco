@@ -2,9 +2,9 @@
     <div><strong>Расскажите друзьям:</strong></div>
     <br>
     <% if (@document.kind == 'article') : %>
-    <div class="likely likely-light" data-url="<%= @site.canonicalUrl %><%= @document.url %>">
+    <div class="likely likely-big likely-light" data-url="<%= @site.canonicalUrl %><%= @document.url %>">
     <% else : %>
-    <div class="likely likely-light" data-url="<%= @site.canonicalUrl %>" data-title="<%= @site.rssTitle %>">
+    <div class="likely likely-big likely-light" data-url="<%= @site.canonicalUrl %>" data-title="<%= @site.rssTitle %>">
     <% end %>
         <div class="facebook"  tabindex="0" role="link" aria-label="Поделиться в Фейсбуке">Шэрнуть</div>
         <div class="twitter"   tabindex="0" role="link" aria-label="Поделиться в Твиттере" data-via="dmitriyfourier">Твиттнуть</div>

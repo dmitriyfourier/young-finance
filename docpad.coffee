@@ -132,14 +132,14 @@ docpadConfig = {
 
 
 	collections:
-		articles: ->
+		podcasts: ->
 			# get all posts by «kind», sort them by «created_at» and set to all «layout»
-			@getCollection("html").findAllLive({kind:'article',publish:true},[{created_at:-1}]).on "add", (model) ->
-				model.setMetaDefaults({layout:"default"})
+			@getCollection("html").findAllLive({kind:'podcast',publish:true},[{created_at:-1}]).on "add", (model) ->
+				model.setMetaDefaults({layout:"pods"})
 
-		drafts: ->
-			@getCollection("html").findAllLive({kind:'article',publish:false},[{created_at:-1}]).on "add", (model) ->
-				model.setMetaDefaults({layout:"default"})
+		#drafts: ->
+		#	@getCollection("html").findAllLive({kind:'article',publish:false},[{created_at:-1}]).on "add", (model) ->
+		#		model.setMetaDefaults({layout:"default"})
 
 	# Plugins configurations
 	plugins:
