@@ -1,4 +1,16 @@
-<meta property="og:title" content="Example title" />
+<meta property="og:title" content="<%= @document.og-title %>" />
+<meta property="og:description" content="<%= @document.og-desc %>" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://www.site.com/example" />
-<meta property="og:image" content="http://site.com/images/example.jpg" />
+<meta property="og:url" content="<%- @site.url %>" />
+<meta property="og:image" content="<%- @site.url %>/i/og<%= @document.og-img %>">
+<meta property="og:locale" content="ru_RU" />
+<meta property="og:site_name" content="<%- @site.rssTitle %>" />
+
+<!--Twitter cards-->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="<%- @site.twittername %>" /> 
+<meta name="twitter:creator" content="<%- @document.creator %>" />  
+<!--Microdata-->
+<meta itemprop="name" content="<%= @document.og-titile %>" />
+<meta itemprop="description" content="<%= @document.og-desc %>" /> 
+<meta itemprop="image" content="<%- @site.url %>/i/og<%= @document.og-img %>" />
