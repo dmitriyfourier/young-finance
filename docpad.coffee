@@ -54,6 +54,10 @@ docpadConfig = {
 
 			googleAnalyticsDomain: "young-finance.ru"
 
+			podcastTitle:"Встретились два нищеброда 💸"
+			podcastDesc:"""Подкаст для молодых и амбициозных, о том как стать финансово грамотным, накопить и сохранить свой капитал."""
+			podcastImg:"тыц.png"
+
 			# The website's styles
 			styles: [
 			]
@@ -145,8 +149,8 @@ docpadConfig = {
 	plugins:
 		rss:
 			default:
-				collection: 'articles'
-				url: '/newrss.xml' # optional, this is the default
+				collection: 'podcasts'
+				url: '/podcasts1.xml' # optional, this is the default
 		sitemap:
 			cachetime: 600000
 			changefreq: 'weekly'

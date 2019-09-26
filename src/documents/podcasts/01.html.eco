@@ -9,15 +9,10 @@ og_desc: Тема выпуска №1
 og_img: logo-og.png
 og_type: article
 sound: 01.mp3
-created_at: 2013-03-07
-excerpt: "Расширеное описаание подкаста для RSS"
+created_at: 1013-03-08
+excerpt: "Расширеное описаание подкаста для RSS #1"
 kind: podcast
 publish: true
 ---
-<div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 space-in-left-micro-xs space-in-left-micro-md space-in-bottom-base-md">
-            <h1>Встретились два нищеброда</h1>
-            <p>Подкаст для молодых и амбициозных, о том как стать финансово грамотным, накопить и сохранить свой капитал.</p>
-            <h2>Выпуск №1: </h2>
-    </div>
-</div>
+
+<h1>Выпуск №1</h1>

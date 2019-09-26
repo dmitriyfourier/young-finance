@@ -9,7 +9,7 @@
 <!--Twitter cards-->
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="<%- @site.twittername %>" /> 
-<meta name="twitter:creator" content="<%- @document.creator %>" />  
+<meta name="twitter:creator" content="<%= @document.creator %>" />  
 <!--Microdata-->
 <meta itemprop="name" content="<%= @document.og_title %>" />
 <meta itemprop="description" content="<%= @document.og_desc %>" /> 
