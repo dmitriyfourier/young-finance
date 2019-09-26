@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+  <% posts = @getCollection('podcasts').toJSON() %>
+    <title><%= @site.podcastTitle %></title>
+    <googleplay:author><%= @site.author %></googleplay:author>
+    <itunes:author><%= @site.author %></itunes:author>
+    <googleplay:category text="<%= @site.podcastCat %>"/>
+    <itunes:category text="<%= @site.podcastCat %>"/>
+    <googleplay:image href="<%= @site.canonicalUrl %>/i/podsimg/<%= @site.podcastImg %>"/>
+    <itunes:image href="<%= @site.canonicalUrl %>/i/podsimg/<%= @site.podcastImg %>"/>
+    <description><%= @site.podcastDesc %></description>
+    <googleplay:description><%= @site.podcastDesc %></googleplay:description>
+    <itunes:summary><%= @site.podcastDesc %></itunes:summary>
+    <language>ru</language>
+    <link><%= @site.canonicalUrl %><%= @site.podcastURL %></link>
+            <% for post in posts: %>
+            <item>
+                    <title><%= post.og_title %></title>
+                    <description><%= post.excerpt %></description>
+                    <googleplay:description><%= post.excerpt %></googleplay:description>
+                    <itunes:summary><%= post.excerpt %></itunes:summary>
+                    <pubDate><%= post.created_at.toUTCString() %></pubDate>
+                    <enclosure url="<%= @site.canonicalUrl %>/sounds/<%= post.audio %>"
+                                type="audio/mpeg" length="34216300"/>
+                    <itunes:duration><%= post.dur %></itunes:duration>
+                    <guid><%= @site.canonicalUrl %><%= post.url %></guid>
+            </item>
+            <% end %>
+  </channel>
+</rss>

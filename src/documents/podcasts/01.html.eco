@@ -8,8 +8,9 @@ og_title: Встретили два нищеброда: Выпуск №1
 og_desc: Тема выпуска №1
 og_img: logo-og.png
 og_type: article
-sound: 01.mp3
-created_at: 1013-03-08
+audio: '01.mp3'
+dur: '20:22'
+created_at: 2013-03-08
 excerpt: "Расширеное описаание подкаста для RSS #1"
 kind: podcast
 publish: true
