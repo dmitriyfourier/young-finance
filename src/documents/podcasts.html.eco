@@ -1,17 +1,48 @@
 ---
 layout: 'pods'
-title: 'Подкаст: Встретились два нищеброда!'
+title: 'Подкаст: Cобрались два нищеброда!'
 description: 'Уютный подкаст про финансвоую грамотность, для молодежи от 16 до 27+'
 keywords: 'подкаст, личные финансы, сбережения, финансоваая грамотность, накопления, инвестиции, бюджет'
 creator: '@dmitriyfourier'
 og_title: Подкаст: Встретились два нищеброда!
 og_desc: Уютный подкаст про финансвоую грамотность, для молодежи от 16 до 27+
-og_img: logo-og.png
+og_img: podcast-og.png
 og_type: article
 ---
 <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 space-in-left-micro-xs space-in-left-micro-md space-in-bottom-base-md">
-            <h1>Встретились два нищеброда!+</h1>
+    <div class="col-xs-12 col-sm-12 col-md-10 col-lg-8 space-in-left-micro-xs space-in-left-micro-md space-in-bottom-base-md">
+            <h1>Встретились два нищеброда!</h1>
             <p>Подкаст для молодых и амбициозных, о том как стать финансово грамотным, накопить и сохранить свой капитал.</p>
     </div>
+    <div class="col-xs-12 col-sm-12 col-md-2 col-lg-4 space-in-left-micro-xs space-in-left-micro-md space-in-bottom-base-md">
+        <%- @partial('podcast-lists') %>
+    </div>
 </div>
+
+<div class="row row-bottom-sm" style="align-items: baseline;">
+    <div class="col-xs-12 col-sm-shrink">
+        <h2 class="space-in-right-mili-lg"> Вышедшие выпуски</h2>
+    </div>
+    <div class="col-xs-12 col-sm-shrink">
+        <p>Подписаться на новые выпуски:
+            <a class="link space-in-wide-micro-xs" href="https://anchor.fm/s/eb2ccf4/podcast/rss">RSS</a>
+        </p>
+    </div>
+</div>
+<div class="blogwall space-minus-h-mili-xs space-out-h-zero-sm space-out-top-micro-xs">
+
+
+</div>
+<section class="blogwall-item blogwall-gridcell blogwall-fauxlink col-flex-sm">
+        <% posts = @getCollection('podcasts').toJSON() %>
+        <% for post in posts: %>
+        <p class="txt-date space-out-zero-xs">
+            <time class="blogwall-date" datetime="<%= post.created_at.toUTCString() %>">
+                <span class="blogwall-readable-only">Дата публикации:</span><%= post.create_d %>
+            </time>
+        </p>
+        <p class="space-out-v-nano-xs">
+            <a href="<%= @site.canonicalUrl %><%= post.url %>" alt="<%= post.og_title %>" class="link blogwall-link" tabindex="-1"><%= post.excerpt %></a>
+        </p>
+        <% end %>
+</section>

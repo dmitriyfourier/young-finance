@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: 
+Disallow: /articles/sign-in/
+Disallow: /articles/settings/password-reset/
+Disallow: /articles/@ajax/check-password/
+Sitemap: http://young-finance.ru/sitemap.xml
+Sitemap: http://young-finance.ru/articles/sitemap.xml/

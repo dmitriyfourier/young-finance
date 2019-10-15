@@ -1,0 +1,30 @@
+---
+layout: 'toolz'
+title: 'Инструменты для учета личных финансов'
+description: 'Небольшой набор табличек, калькуляторов и прочих вещей, которые помогут вести личные финансы'
+keywords: 'подкаст, личные финансы, сбережения, финансоваая грамотность, накопления, инвестиции, бюджет, таблицы, калькуляторы'
+creator: '@dmitriyfourier'
+og_title: 'Инструменты для учета личных финансов, денег и всего такого'
+og_desc: Небольшой набор табличек, калькуляторов и прочих вещей, которые помогут вести личные финансы
+og_img: podcast-og.png
+og_type: article
+---
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-10 col-lg-8 space-in-left-micro-xs space-in-left-micro-md space-in-bottom-base-md">
+            <h1>Инструменты для учета личных финансов</h1>
+            <p>Набор табличек, калькуляторов, методик расчета и инструкций, чтобы управлять капиталом было проще</p>
+    </div>
+</div>
+    <section class="blogwall-item blogwall-gridcell blogwall-fauxlink col-flex-sm space-in-left-micro-xs space-in-left-micro-md space-in-bottom-base-md">
+            <% posts = @getCollection('tools').toJSON() %>
+            <% for post in posts: %>
+            <p class="txt-date space-out-zero-xs">
+                <time class="blogwall-date" datetime="<%= post.created_at.toUTCString() %>">
+                    <span class="blogwall-readable-only">Дата публикации:</span><%= post.create_d %>
+                </time>
+            </p>
+            <p class="space-out-v-nano-xs">
+                <a href="<%= @site.canonicalUrl %><%= post.url %>" alt="<%= post.og_title %>" class="link blogwall-link" tabindex="-1"><%= post.title %></a>
+            </p>
+            <% end %>
+    </section>

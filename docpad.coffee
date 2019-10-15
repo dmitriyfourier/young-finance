@@ -142,6 +142,10 @@ docpadConfig = {
 			# get all posts by «kind», sort them by «created_at» and set to all «layout»
 			@getCollection("html").findAllLive({kind:'podcast',publish:true},[{created_at:-1}]).on "add", (model) ->
 				model.setMetaDefaults({layout:"pods"})
+		tools: ->
+			# get all posts by «kind», sort them by «created_at» and set to all «layout»
+			@getCollection("html").findAllLive({kind:'tool',publish:true},[{created_at:-1}]).on "add", (model) ->
+				model.setMetaDefaults({layout:"toolz"})		
 
 		#drafts: ->
 		#	@getCollection("html").findAllLive({kind:'article',publish:false},[{created_at:-1}]).on "add", (model) ->
@@ -152,7 +156,7 @@ docpadConfig = {
 		rss:
 			default:
 				collection: 'podcasts'
-				url: '/podcasts1.xml' # optional, this is the default
+				url: '/podcasts.xml' # optional, this is the default
 		sitemap:
 			cachetime: 600000
 			changefreq: 'weekly'
@@ -212,7 +216,7 @@ docpadConfig = {
 		development:
 			templateData:
 				site:
-					url: 'http://localhost:9778'
+					url: 'http://young-finance.ru'
 
 					# The website's scripts
 					scripts: [

@@ -9,7 +9,7 @@ og_desc: Заметки про финансвоую грамотность, дл
 og_img: logo-og.png
 og_type: website
 ---
-<div class="row">
+<section class="row">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 space-in-left-micro-xs space-in-left-micro-md space-in-bottom-base-md">
             <h1>Заметки о&nbsp;финансовой грамотности, и&nbsp;том, как не&nbsp;проспать все, если вам от&nbsp;16&nbsp;до&nbsp;27+</h1>
             <p>Ребята, привет. Все-же принял решение запустить, маленький неформальный ресурс о&nbsp;финансовой грамотности. чтобы пока вы&nbsp;молоды, не&nbsp;успели проспать все, и&nbsp;встретить свои 27, 30&nbsp;лет, в&nbsp;достатке, или хотя&nbsp;бы с&nbsp;достаточным багажом знаний, чтобы обеспечить себе будущее. </p>
@@ -17,5 +17,50 @@ og_type: website
             <p>Пока я&nbsp;буду писать заметки сам, между делом попутно допиливать сайт. Позже попробуем новые форматы. Если вам есть, что рассказать или поделиться своим опытом в&nbsp;области личных финансов пишите мне в&nbsp;Телеграм @dmitriyfourier</p>
             <p>Не&nbsp;обещаю, что все получится, но&nbsp;пока прет буду делать.</p>
     </div>
-    
-</div>
+</section>
+
+<section class="row row-bottom-sm space-in-left-micro-xs space-in-left-micro-md space-in-bottom-base-md" style="align-items: baseline;">
+    <div class="col-xs-12 col-sm-shrink">
+        <h2 class="space-in-right-mili-lg"><span> Подскаст «<a href="/podcasts" alt="Подскаст «Собрались два нищеброда!»">Собрались два нищеброда!</a>»</span> 🎙️</h2>
+        <p>Уютный подкаст, где мы с гостями обсуждаем, финансовые провалы, лайфхаки и лайфстайл построенный на разумном отношении к деньгам</p>
+    </div>
+    <div class="col-xs-12 col-sm-shrink">
+        <p>Подписаться на новые выпуски:
+            <a class="link space-in-wide-micro-xs" href="https://anchor.fm/s/eb2ccf4/podcast/rss">RSS</a>
+        </p>
+    </div>
+</section>
+<section class="blogwall-item blogwall-gridcell blogwall-fauxlink col-flex-sm space-in-left-micro-xs space-in-left-micro-md space-in-bottom-base-md">
+        <% posts = @getCollection('podcasts').toJSON() %>
+        <% for post in posts: %>
+        <p class="txt-date space-out-zero-xs">
+            <time class="blogwall-date" datetime="<%= post.created_at.toUTCString() %>">
+                <span class="blogwall-readable-only">Дата публикации:</span><%= post.create_d %>
+            </time>
+        </p>
+        <p class="space-out-v-nano-xs">
+            <a href="<%= @site.canonicalUrl %><%= post.url %>" alt="<%= post.og_title %>" class="link blogwall-link" tabindex="-1"><%= post.excerpt %></a>
+        </p>
+        <% end %>
+</section>
+
+<section class="row row-bottom-sm space-in-left-micro-xs space-in-left-micro-md space-in-bottom-base-md" style="align-items: baseline;">
+        <div class="col-xs-12 col-sm-shrink">
+            <h2 class="space-in-right-mili-lg"><a href="/tools" alt="Инструменты для работы с личными финансами">Инструментарий</a> 🔧</h2>
+            <p>Набор инструментов, табличек и калькуляторов для управления личными финансами</p>
+        </div>
+
+    </section>
+    <section class="blogwall-item blogwall-gridcell blogwall-fauxlink col-flex-sm space-in-left-micro-xs space-in-left-micro-md space-in-bottom-base-md">
+            <% posts = @getCollection('tools').toJSON() %>
+            <% for post in posts: %>
+            <p class="txt-date space-out-zero-xs">
+                <time class="blogwall-date" datetime="<%= post.created_at.toUTCString() %>">
+                    <span class="blogwall-readable-only">Дата публикации:</span><%= post.create_d %>
+                </time>
+            </p>
+            <p class="space-out-v-nano-xs">
+                <a href="<%= @site.canonicalUrl %><%= post.url %>" alt="<%= post.og_title %>" class="link blogwall-link" tabindex="-1"><%= post.title %></a>
+            </p>
+            <% end %>
+    </section>
