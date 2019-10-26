@@ -1,0 +1,106 @@
+ <!--2-->
+    <section class="blogwall-item blogwall-gridcell blogwall-fauxlink col-flex-sm">
+            
+            <p class="txt-date space-out-zero-xs">
+                    <span class="badge space-out-right-nano-xs badge-directory">Карта</span>
+                    <span class="badge space-out-right-nano-xs badge-directory">Яндекс.Деньги</span>
+            </p>
+    
+                <!---<div class="blogwall-item-star">★<span class="blogwall-readable-only"></span></div>-->
+    
+            <p class="space-out-v-nano-xs">
+                <span class="link blogwall-link" tabindex="-1">Яндекс.Деньги</span>
+            </p>
+            <aside class="space-auto-top-sm txt-comments">
+                <span class="link-inherit link-noline">Закинуть в&nbsp;Яндекс.Деньги</span>
+            </aside>
+            <a href="https://yasobe.ru/na/youngfinance" class="link blogwall-fauxlink--overlay"><span class="blogwall-readable-only">Можно с&nbsp;любой карты</span></a>
+        </section>
+            <!--3-->
+            <section class="blogwall-item blogwall-gridcell blogwall-fauxlink col-flex-sm">
+            
+                    <p class="txt-date space-out-zero-xs">
+                            <span class="badge space-out-right-nano-xs badge-directory">Карта</span>
+                            <span class="badge space-out-right-nano-xs badge-directory">Яндекс.Деньги</span>
+                    </p>
+            
+                        <!---<div class="blogwall-item-star">★<span class="blogwall-readable-only"></span></div>-->
+            
+                    <p class="space-out-v-nano-xs">
+                        <span class="link blogwall-link" tabindex="-1">Я.Стример</span>
+                    </p>
+                    <aside class="space-auto-top-sm txt-comments">
+                        <span class="link-inherit link-noline">Закинуть в&nbsp;Я.Стример</span>
+                    </aside>
+                    <a href="https://donate.stream/youngfinance" class="link blogwall-fauxlink--overlay"><span class="blogwall-readable-only">Можно с&nbsp;любой карты</span></a>
+                </section>
+            <!--4-->
+            <section class="blogwall-item blogwall-gridcell blogwall-fauxlink col-flex-sm">
+            
+                    <p class="txt-date space-out-zero-xs">
+                            <span class="badge space-out-right-nano-xs badge-directory">Рокетбанк</span>
+                            <span class="badge space-out-right-nano-xs badge-directory">Карта</span>
+                    </p>
+            
+                        <!---<div class="blogwall-item-star">★<span class="blogwall-readable-only"></span></div>-->
+            
+                    <p class="space-out-v-nano-xs">
+                        <span class="link blogwall-link" tabindex="-1">Перевести в Рокетбанк</span>
+                    </p>
+                    <aside class="space-auto-top-sm txt-comments">Занести главреду в Рокетбанк</span>
+                    </aside>
+                    <a href="https://rocketbank.ru/dmitriy-fourier" class="link blogwall-fauxlink--overlay"><span class="blogwall-readable-only">Занести главреду в Рокетбанк</span></a>
+                </section>   
+                      <!--5-->
+                      <section class="blogwall-item blogwall-gridcell blogwall-fauxlink col-flex-sm">
+            
+                            <p class="txt-date space-out-zero-xs">
+                                    <span class="badge space-out-right-nano-xs badge-directory">Тинькофф</span>
+                                    <span class="badge space-out-right-nano-xs badge-directory">Перевод</span>
+                            </p>
+                    
+                                <!---<div class="blogwall-item-star">★<span class="blogwall-readable-only"></span></div>-->
+                    
+                            <p class="space-out-v-nano-xs">
+                                <span class="link blogwall-link" tabindex="-1">Перевести в&nbsp;Тинькофф-банк</span>
+                            </p>
+                            <aside class="space-auto-top-sm txt-comments">Занести главреду в&nbsp;Тинькофф-банк</span>
+                            </aside>
+                            <a href="https://www.tinkoff.ru/sl/70wQYAOshMu" class="link blogwall-fauxlink--overlay"><span class="blogwall-readable-only">Занести главреду в&nbsp;Тинькофф-банк</span></a>
+                        </section>
+                                              <!--6-->
+                      <section class="blogwall-item blogwall-gridcell blogwall-fauxlink col-flex-sm">
+
+                            <p class="txt-date space-out-zero-xs">
+                                    <span class="badge space-out-right-nano-xs badge-directory">Патреон</span>
+                                    <span class="badge space-out-right-nano-xs badge-directory">Подписка</span>
+                            </p>
+                            <div class="blogwall-item-star">★<span class="blogwall-readable-only">Лучший способ</span></div>
+                    
+                                <!---<div class="blogwall-item-star">★<span class="blogwall-readable-only"></span></div>-->
+                    
+                            <p class="space-out-v-nano-xs">
+                                <span class="link blogwall-link" tabindex="-1">Стать патронусом</span>
+                            </p>
+                            <aside class="space-auto-top-sm txt-comments">Оформить регулярный донат на&nbsp;Патреоне</span>
+                            </aside>
+                            <a href="https://www.patreon.com/youngfinance" class="link blogwall-fauxlink--overlay"><span class="blogwall-readable-only">Оформить регулярный донат на&nbsp;Патреоне</span></a>
+                        </section>      
+                                                                     <!--7-->
+                      <section class="blogwall-item blogwall-gridcell blogwall-fauxlink col-flex-sm">
+
+                            <p class="txt-date space-out-zero-xs">
+                                    <span class="badge space-out-right-nano-xs badge-directory">Бусти</span>
+                                    <span class="badge space-out-right-nano-xs badge-directory">Подписка</span>
+                            </p>
+                            <div class="blogwall-item-star">★<span class="blogwall-readable-only">Лучший способ</span></div>
+                    
+                                <!---<div class="blogwall-item-star">★<span class="blogwall-readable-only"></span></div>-->
+                    
+                            <p class="space-out-v-nano-xs">
+                                <span class="link blogwall-link" tabindex="-1">Стать бустером</span>
+                            </p>
+                            <aside class="space-auto-top-sm txt-comments">Оформить регулярный донат на&nbsp;Бусти</span>
+                            </aside>
+                            <a href="https://boosty.to/young-finance" class="link blogwall-fauxlink--overlay"><span class="blogwall-readable-only">Оформить регулярный донат на&nbsp;Бусти</span></a>
+                        </section>           

@@ -1,0 +1,32 @@
+---
+layout: 'homepage'
+title: 'We 💛 money'
+description: 'Несколько способов поддержать наше издание и сказать Спасибо'
+keywords: 'Янг • Файненс, личные финансы, сбережения, финансоваая грамотность, накопления, инвестиции, бюджет'
+creator: '@dmitriyfourier'
+og_title: We 💛 money
+og_desc: Несколько способов поддержать наше издание и сказать Спасибо
+og_img: logo-og.png
+og_type: website
+---
+<section class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 space-in-left-micro-xs space-in-left-micro-md space-in-bottom-base-md">
+            <h1>Спасибо, что верите в&nbsp;нас! </h1>
+            <p>Деньги в&nbsp;монитор не&nbsp;бросайте, а&nbsp;лучше отложите себе, чтобы начать формировать <a href="http://young-finance.ru/articles/all/emergency-ration/">подушку безопасности</a>, или <a href="http://young-finance.ru/articles/tags/save-our-money/">сбережения</a></p>
+            <p>Если все-же настаиваете на&nbsp;том, чтобы мы&nbsp;их&nbsp;взяли, воспользуйтесь любым способом ниже. </p>
+        </div>
+</section>
+<section class="row">
+<div class="blogwall space-minus-h-mili-xs space-out-h-zero-sm space-out-top-micro-xs">
+        <%- @partial('donate-method') %>
+</div>
+</section>
+<section class="row space-out-top-mili-xs">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 space-in-left-micro-xs space-in-left-micro-md space-in-bottom-base-md">
+            <p>Если&nbsp;же хотите просто нас поддержать, не&nbsp;денежно, расскажите про нас друзьям, и&nbsp;поскидывайте ссылки на&nbsp;наше издание. Может вашим друзьям будет полезно. </p>
+            <p>Спасибо, что вы&nbsp;здесь и&nbsp;с&nbsp;нами. Любим вас.</p>
+            <iframe src="https://giphy.com/embed/ZBQhoZC0nqknSviPqT" width="459" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+</section>
+
+
+

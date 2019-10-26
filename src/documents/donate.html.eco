@@ -1,0 +1,49 @@
+---
+layout: 'homepage'
+title: 'We 💛 money'
+description: 'Несколько способов поддержать наше издание и сказать Спасибо'
+keywords: 'Янг • Файненс, личные финансы, сбережения, финансоваая грамотность, накопления, инвестиции, бюджет'
+creator: '@dmitriyfourier'
+og_title: We 💛 money
+og_desc: Несколько способов поддержать наше издание и сказать Спасибо
+og_img: logo-og.png
+og_type: website
+---
+<section class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 space-in-left-micro-xs space-in-left-micro-md space-in-bottom-base-md">
+        <h1>We 💛 money</h1>
+        <p>А&nbsp;вы&nbsp;нас можете поддержать в&nbsp;этом</p>
+        <p>Сейчас наше издание живет, за&nbsp;счет средств главного редактора и&nbsp;его голого энтузиазма. </p>
+        <p>Содержать издание не&nbsp;просто, но&nbsp;хочется продолжать. Если вам нравится, что мы&nbsp;делаем вы&nbsp;можете дать нам денег и&nbsp;что-то из&nbsp;нашего виш-листа. Они пойдут на&nbsp;развитие, сайта, подкаста, и&nbsp;организацию других площадок.</p>
+    </div>
+</section>
+
+
+<section class="row row-bottom-sm space-in-left-micro-xs space-in-left-micro-md space-in-bottom-base-md" style="align-items: baseline;">
+        <div class="col-xs-12 col-sm-shrink">
+            <h2 class="space-in-right-mili-lg">Куда бросать деньги</h2>
+            <p>Площадки и места, куда можно отправить некоторую сумму (можно ничего), что-бы мы могли повышать качество наших материалов.</p>
+        </div>
+</section>
+<div class="blogwall space-minus-h-mili-xs space-out-h-zero-sm space-out-top-micro-xs">
+    <!--1-->
+    <section class="blogwall-item blogwall-gridcell blogwall-fauxlink col-flex-sm">
+            
+        <p class="txt-date space-out-zero-xs">
+                <span class="badge space-out-right-nano-xs badge-directory">Ничего</span>
+        </p>
+
+            <!---<div class="blogwall-item-star">★<span class="blogwall-readable-only"></span></div>-->
+
+        <p class="space-out-v-nano-xs">
+            <span class="link blogwall-link" tabindex="-1">Бросить деньги в&nbsp;монитор</span>
+        </p>
+        <aside class="space-auto-top-sm txt-comments">
+            <span class="link-inherit link-noline">Самый доступный способ</span>
+        </aside>
+        <a href="/sarcasm-ty" class="link blogwall-fauxlink--overlay"><span class="blogwall-readable-only">Читать статью «Веб-лицензии для&nbsp;платных шрифтов могут стоить вам дорого»</span></a>
+    </section>
+    <%- @partial('donate-method') %>
+</div>
+
+

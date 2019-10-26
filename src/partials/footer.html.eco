@@ -1,11 +1,12 @@
 <footer class="row row-middle-md space-out-bottom-mili-xs space-out-bottom-mega-mili">
 		<div class="col-xxs col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xlg-12 space-in-bottom-micro-xs">
 				<a class="link-novisited col-xs-12 col-sm-shrink space-in-bottom-nano-xs space-in-v-nano-sm" title="Паблика вконтакте" href="https://vk.com/youngfinance">Вк</a>
-				<a class="link-novisited col-xs-12 col-sm-shrink space-in-bottom-nano-xs space-in-v-nano-sm" title="Страница в Фэйсбуке" href="https://www.facebook.com/pg/Янг-Файненс-103135494411928">Фб</a>
+				<a class="link-novisited col-xs-12 col-sm-shrink space-in-bottom-nano-xs space-in-v-nano-sm" title="Страница в Фэйсбуке" href="https://www.facebook.com/yng.finance/">Фб</a>
 				<a class="link-novisited col-xs-12 col-sm-shrink space-in-bottom-nano-xs space-in-v-nano-sm" title="Нытье в твиттере" href="https://twitter.com/yngfinance">Тви</a>
 				<a class="link-novisited col-xs-12 col-sm-shrink space-in-bottom-nano-xs space-in-v-nano-sm" title="Модные сториз в Инстаграмме" href="https://www.instagram.com/yng_finance/">Инст</a>
 				<a class="link-novisited col-xs-12 col-sm-shrink space-in-bottom-nano-xs space-in-v-nano-sm" title="Записки в телеграме" href="https://tlgg.ru/youngfinance">Тлгрм</a>
 				<a class="link-novisited col-xs-12 col-sm-shrink space-in-bottom-nano-xs space-in-v-nano-sm" title="Видосы на Ютубе" href="https://www.youtube.com/channel/UCMAJ75nC0p8Kp4rSqdXDInQ">Ютб</a>
+				<a class="link-novisited col-xs-12 col-sm-shrink space-in-bottom-nano-xs space-in-v-nano-sm" title="Поддержать" href="http://young-finance.ru/donate">We 💛 money</a>
 		</div>
 				<div class="col-xss-min space-in-bottom-micro-xs" style="min-width: 200px">© <a href="http://furye.ru/" title="Димтрий Фурье"><%- @site.creator %></a>
 			<% if (@document.created_at) : %>
