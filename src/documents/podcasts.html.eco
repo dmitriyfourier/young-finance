@@ -14,11 +14,12 @@ og_type: article
             <h1>Встретились два нищеброда!</h1>
             <p>Подкаст для молодых и амбициозных, о том как стать финансово грамотным, накопить и сохранить свой капитал.</p>
     </div>
-    <div class="col-xs-12 col-sm-12 col-md-2 col-lg-4 space-in-left-micro-xs space-in-left-micro-md space-in-bottom-base-md">
-        <%- @partial('podcast-lists') %>
-    </div>
 </div>
-
+<div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-10 col-lg-8 space-in-left-micro-xs space-in-left-micro-md space-in-bottom-base-md">
+                <%- @partial('podcast-lists') %>
+        </div>
+    </div>
 <div class="row row-bottom-sm" style="align-items: baseline;">
     <div class="col-xs-12 col-sm-shrink">
         <h2 class="space-in-right-mili-lg"> Вышедшие выпуски</h2>
@@ -30,19 +31,26 @@ og_type: article
     </div>
 </div>
 <div class="blogwall space-minus-h-mili-xs space-out-h-zero-sm space-out-top-micro-xs">
-
-
-</div>
+<% posts = @getCollection('podcasts').toJSON() %>
+<% for post in posts: %>
 <section class="blogwall-item blogwall-gridcell blogwall-fauxlink col-flex-sm">
-        <% posts = @getCollection('podcasts').toJSON() %>
-        <% for post in posts: %>
+       
         <p class="txt-date space-out-zero-xs">
+                <span class="badge space-out-right-nano-xs badge-directory">Выпуск <%= post.number %></span>
             <time class="blogwall-date" datetime="<%= post.created_at.toUTCString() %>">
                 <span class="blogwall-readable-only">Дата публикации:</span><%= post.create_d %>
             </time>
         </p>
         <p class="space-out-v-nano-xs">
-            <a href="<%= @site.canonicalUrl %><%= post.url %>" alt="<%= post.og_title %>" class="link blogwall-link" tabindex="-1"><%= post.excerpt %></a>
+            <a href="<%= post.url %>"" alt="<%= post.og_title %>" class="link blogwall-link" tabindex="-1"><%= post.excerpt %></a>
         </p>
+
+        <% if (post.guest) : %>
+            <aside class="space-auto-top-sm txt-comments">
+                <span class="link-inherit link-noline">Гость: <%= post.guest %></span>
+            </aside>
         <% end %>
+            <a href="<%= post.url %>" class="link blogwall-fauxlink--overlay"><span class="blogwall-readable-only">Читать статью «Веб-лицензии для&nbsp;платных шрифтов могут стоить вам дорого»</span></a>
 </section>
+<% end %>
+</div>
